@@ -20,6 +20,7 @@ class ReviewViewController: UIViewController {
     
     var result : Base?{
         didSet {
+            guard isViewLoaded else { return }
             updateViews()
         }
     }
@@ -41,7 +42,7 @@ class ReviewViewController: UIViewController {
     var bookImageView: UIImageView = {
         let imageView = UIElementsManager.createImageView(image: UIImage(), contentMode: .scaleAspectFill)
         imageView.tintColor = .gray
-        imageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
+        imageView.image = #imageLiteral(resourceName: "barstoolLogo")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
