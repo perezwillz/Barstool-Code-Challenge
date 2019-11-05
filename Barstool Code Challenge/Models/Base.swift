@@ -14,7 +14,7 @@ import Foundation
 import Foundation
 
 struct Base : Codable {
-    let id : Int?
+    let id : Int
     let title : String?
     let url : String?
     let thumbnail : Thumbnail?

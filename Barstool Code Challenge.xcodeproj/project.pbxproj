@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,7 @@
 		B922A9772370EBD000B72117 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9762370EBD000B72117 /* Thumbnail.swift */; };
 		B922A9792370EBF800B72117 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9782370EBF800B72117 /* Author.swift */; };
 		B922A97B2370F99A00B72117 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A97A2370F99A00B72117 /* ReviewViewController.swift */; };
+		B922A97D2371300900B72117 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A97C2371300900B72117 /* Operations.swift */; };
 		F9785E35D02090C6FFD22F86 /* Pods_Barstool_Code_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24048E6D0F52F3E44108AD99 /* Pods_Barstool_Code_Challenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		B922A9762370EBD000B72117 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		B922A9782370EBF800B72117 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		B922A97A2370F99A00B72117 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		B922A97C2371300900B72117 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Code Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Code Challenge.release.xcconfig"; path = "Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +88,6 @@
 				EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */,
 				F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +157,7 @@
 				B922A9622370E73B00B72117 /* NetworkManager.swift */,
 				B922A9602370E73B00B72117 /* UIElementsManager.swift */,
 				B922A9612370E73B00B72117 /* UIElementsSizes.swift */,
+				B922A97C2371300900B72117 /* Operations.swift */,
 			);
 			path = "Custom Managers";
 			sourceTree = "<group>";
@@ -317,6 +319,7 @@
 				B922A9412370DF9C00B72117 /* SceneDelegate.swift in Sources */,
 				B922A96E2370E75E00B72117 /* Base.swift in Sources */,
 				B922A97B2370F99A00B72117 /* ReviewViewController.swift in Sources */,
+				B922A97D2371300900B72117 /* Operations.swift in Sources */,
 				B922A9662370E73B00B72117 /* UIElementsSizes.swift in Sources */,
 				B922A9692370E73B00B72117 /* ImageCache.swift in Sources */,
 				B922A9532370E44F00B72117 /* ViewController.swift in Sources */,

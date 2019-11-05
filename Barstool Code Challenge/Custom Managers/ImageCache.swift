@@ -11,7 +11,7 @@ import Foundation
 
 class Cache<Key, Value> where Key : Hashable {
     //Custom Queue's
-    private var queue = DispatchQueue(label: "CSG.NYtimes.CacheSerialQueue")
+    private var queue = DispatchQueue(label: "CSG.BarStoolsApp.CacheSerialQueue")
     
     //Array of dictionaries
     private var cachedItems: [Key: Value] = [:]

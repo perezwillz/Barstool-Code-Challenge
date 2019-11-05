@@ -11,23 +11,17 @@ import UIKit
 
 class ReviewCell: UICollectionViewCell {
     
-    var result: Base? {
+    var base: Base? {
         didSet {
-            guard let result = result else { return }
-            displayTitleLabel.text = result.title
-            brand_Name.text = result.brand_name
-            author_Name.text = "Author: \(result.author?.name ?? "")"
-            renameImageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
-            guard let imageUrl = result.thumbnail?.raw else {return}
-            NetworkManager.getImage(urlString: imageUrl, completion: { (image, error) in
-                guard let image = image else {return}
-                self.renameImageView.image = image
-                self.renameImageView.hero.id = .url
-            })
+            guard let base = base else { return }
+            displayTitleLabel.text = base.title
+            brand_Name.text = base.brand_name
+            author_Name.text = "Author: \(base.author?.name ?? "")"
+            resultImageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
         }
     }
     
-    var renameImageView: UIImageView = {
+    var resultImageView: UIImageView = {
         let imageView = UIElementsManager.createImageView(image: UIImage(), contentMode: .scaleAspectFill)
         imageView.tintColor = .gray
         imageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
@@ -68,32 +62,32 @@ class ReviewCell: UICollectionViewCell {
         hero.isEnabled = true
         backgroundColor = .white
         layer.cornerRadius = 6
-        addSubviews(renameImageView)
-        renameImageView.addSubviews(displayTitleLabel,brand_Name,author_Name)
+        addSubviews(resultImageView)
+        resultImageView.addSubviews(displayTitleLabel,brand_Name,author_Name)
         setupConstraints()
     }
     
     func setupConstraints(){
         NSLayoutConstraint.activate([
             // Image
-            renameImageView.topAnchor.constraint(equalTo: topAnchor),
-            renameImageView.leftAnchor.constraint(equalTo: leftAnchor),
-            renameImageView.rightAnchor.constraint(equalTo:rightAnchor),
-            renameImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            resultImageView.topAnchor.constraint(equalTo: topAnchor),
+            resultImageView.leftAnchor.constraint(equalTo: leftAnchor),
+            resultImageView.rightAnchor.constraint(equalTo:rightAnchor),
+            resultImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
             
             // DisplayTitle
-            displayTitleLabel.topAnchor.constraint(equalTo: renameImageView.topAnchor, constant: 16),
-            displayTitleLabel.leadingAnchor.constraint(equalTo: renameImageView.leadingAnchor, constant: 8),
-            displayTitleLabel.trailingAnchor.constraint(equalTo: renameImageView.trailingAnchor, constant: -8),
+            displayTitleLabel.topAnchor.constraint(equalTo: resultImageView.topAnchor, constant: 16),
+            displayTitleLabel.leadingAnchor.constraint(equalTo: resultImageView.leadingAnchor, constant: 8),
+            displayTitleLabel.trailingAnchor.constraint(equalTo: resultImageView.trailingAnchor, constant: -8),
              
             // BrandNameLabel
-            brand_Name.leadingAnchor.constraint(equalTo: renameImageView.leadingAnchor, constant: 8),
-            brand_Name.trailingAnchor.constraint(equalTo: renameImageView.trailingAnchor, constant: 8),
-            brand_Name.bottomAnchor.constraint(equalTo: renameImageView.bottomAnchor,constant: -16),
+            brand_Name.leadingAnchor.constraint(equalTo: resultImageView.leadingAnchor, constant: 8),
+            brand_Name.trailingAnchor.constraint(equalTo: resultImageView.trailingAnchor, constant: 8),
+            brand_Name.bottomAnchor.constraint(equalTo: resultImageView.bottomAnchor,constant: -16),
             
             // AuthorNameNameLabel
-            author_Name.leadingAnchor.constraint(equalTo: renameImageView.leadingAnchor, constant: 8),
-            author_Name.trailingAnchor.constraint(equalTo: renameImageView.trailingAnchor, constant: 8),
+            author_Name.leadingAnchor.constraint(equalTo: resultImageView.leadingAnchor, constant: 8),
+            author_Name.trailingAnchor.constraint(equalTo: resultImageView.trailingAnchor, constant: 8),
             author_Name.bottomAnchor.constraint(equalTo: brand_Name.topAnchor,constant: -16),
             ])
     }
