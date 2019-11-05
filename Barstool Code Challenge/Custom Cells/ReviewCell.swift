@@ -17,14 +17,14 @@ class ReviewCell: UICollectionViewCell {
             displayTitleLabel.text = base.title
             brand_Name.text = base.brand_name
             author_Name.text = "Author: \(base.author?.name ?? "")"
-            resultImageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
+            resultImageView.image = #imageLiteral(resourceName: "barstoolLogo")
         }
     }
     
     var resultImageView: UIImageView = {
         let imageView = UIElementsManager.createImageView(image: UIImage(), contentMode: .scaleAspectFill)
         imageView.tintColor = .gray
-        imageView.image = #imageLiteral(resourceName: "The-Godfather-2-240x300")
+        imageView.image = #imageLiteral(resourceName: "barstoolLogo")
         imageView.contentMode = .scaleAspectFill
         imageView.layer.cornerRadius = 12
         imageView.clipsToBounds = true

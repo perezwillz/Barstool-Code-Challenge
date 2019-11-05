@@ -9,7 +9,7 @@
 import Foundation
 
 extension String {
-    static let url = "https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit25"
+    static let url = "https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit100"
     static var searchValue = "godfather"
     static let apiKey = "76HRowLHO2J0QfPzCp4DAlBn9G1aHgjF"
     static let reviewCollectionViewCellID = "reviewCellCellID"

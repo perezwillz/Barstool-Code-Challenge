@@ -464,7 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Barstool Code Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = K3LN6LR5X2;
@@ -485,7 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Barstool Code Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = K3LN6LR5X2;
