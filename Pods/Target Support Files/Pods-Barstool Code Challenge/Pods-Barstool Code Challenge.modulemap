@@ -1,0 +1,6 @@
+framework module Pods_Barstool_Code_Challenge {
+  umbrella header "Pods-Barstool Code Challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

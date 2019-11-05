@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B922A93F2370DF9C00B72117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A93E2370DF9C00B72117 /* AppDelegate.swift */; };
+		B922A9412370DF9C00B72117 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9402370DF9C00B72117 /* SceneDelegate.swift */; };
+		B922A9432370DF9C00B72117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9422370DF9C00B72117 /* ContentView.swift */; };
+		B922A9452370DF9D00B72117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B922A9442370DF9D00B72117 /* Assets.xcassets */; };
+		B922A9482370DF9D00B72117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B922A9472370DF9D00B72117 /* Preview Assets.xcassets */; };
+		B922A94B2370DF9D00B72117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B922A9492370DF9D00B72117 /* LaunchScreen.storyboard */; };
+		B922A9532370E44F00B72117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9522370E44F00B72117 /* ViewController.swift */; };
+		B922A95D2370E70300B72117 /* AddSubsviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A95A2370E70300B72117 /* AddSubsviews.swift */; };
+		B922A95E2370E70300B72117 /* Fonts+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A95B2370E70300B72117 /* Fonts+Extentions.swift */; };
+		B922A95F2370E70300B72117 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A95C2370E70300B72117 /* String+Extension.swift */; };
+		B922A9652370E73B00B72117 /* UIElementsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9602370E73B00B72117 /* UIElementsManager.swift */; };
+		B922A9662370E73B00B72117 /* UIElementsSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9612370E73B00B72117 /* UIElementsSizes.swift */; };
+		B922A9672370E73B00B72117 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9622370E73B00B72117 /* NetworkManager.swift */; };
+		B922A9682370E73B00B72117 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9632370E73B00B72117 /* AppearanceManager.swift */; };
+		B922A9692370E73B00B72117 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9642370E73B00B72117 /* ImageCache.swift */; };
+		B922A96E2370E75E00B72117 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A96A2370E75E00B72117 /* Base.swift */; };
+		B922A9732370E77200B72117 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9722370E77200B72117 /* ReviewViewModel.swift */; };
+		B922A9752370E78B00B72117 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9742370E78B00B72117 /* ReviewCell.swift */; };
+		B922A9772370EBD000B72117 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9762370EBD000B72117 /* Thumbnail.swift */; };
+		B922A9792370EBF800B72117 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A9782370EBF800B72117 /* Author.swift */; };
+		B922A97B2370F99A00B72117 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922A97A2370F99A00B72117 /* ReviewViewController.swift */; };
+		F9785E35D02090C6FFD22F86 /* Pods_Barstool_Code_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24048E6D0F52F3E44108AD99 /* Pods_Barstool_Code_Challenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24048E6D0F52F3E44108AD99 /* Pods_Barstool_Code_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barstool_Code_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B922A93B2370DF9C00B72117 /* Barstool Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barstool Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B922A93E2370DF9C00B72117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B922A9402370DF9C00B72117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B922A9422370DF9C00B72117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B922A9442370DF9D00B72117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B922A9472370DF9D00B72117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B922A94A2370DF9D00B72117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B922A94C2370DF9D00B72117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B922A9522370E44F00B72117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B922A95A2370E70300B72117 /* AddSubsviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubsviews.swift; sourceTree = "<group>"; };
+		B922A95B2370E70300B72117 /* Fonts+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+Extentions.swift"; sourceTree = "<group>"; };
+		B922A95C2370E70300B72117 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B922A9602370E73B00B72117 /* UIElementsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElementsManager.swift; sourceTree = "<group>"; };
+		B922A9612370E73B00B72117 /* UIElementsSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElementsSizes.swift; sourceTree = "<group>"; };
+		B922A9622370E73B00B72117 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B922A9632370E73B00B72117 /* AppearanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
+		B922A9642370E73B00B72117 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B922A96A2370E75E00B72117 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		B922A9722370E77200B72117 /* ReviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		B922A9742370E78B00B72117 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		B922A9762370EBD000B72117 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		B922A9782370EBF800B72117 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		B922A97A2370F99A00B72117 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Code Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Code Challenge.release.xcconfig"; path = "Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B922A9382370DF9C00B72117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9785E35D02090C6FFD22F86 /* Pods_Barstool_Code_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565934EA7E812798F0419471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24048E6D0F52F3E44108AD99 /* Pods_Barstool_Code_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C22A7B0CFA2F237213739D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */,
+				F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B922A9322370DF9C00B72117 = {
+			isa = PBXGroup;
+			children = (
+				B922A93D2370DF9C00B72117 /* Barstool Code Challenge */,
+				B922A93C2370DF9C00B72117 /* Products */,
+				8C22A7B0CFA2F237213739D8 /* Pods */,
+				565934EA7E812798F0419471 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B922A93C2370DF9C00B72117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B922A93B2370DF9C00B72117 /* Barstool Code Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B922A93D2370DF9C00B72117 /* Barstool Code Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				B922A9592370E67F00B72117 /* Custom Cells */,
+				B922A9582370E65800B72117 /* Views */,
+				B922A9572370E64600B72117 /* View Models */,
+				B922A9562370E63A00B72117 /* Models */,
+				B922A9552370E62E00B72117 /* Custom Managers */,
+				B922A9542370E61600B72117 /* Extensions */,
+				B922A93E2370DF9C00B72117 /* AppDelegate.swift */,
+				B922A9402370DF9C00B72117 /* SceneDelegate.swift */,
+				B922A9422370DF9C00B72117 /* ContentView.swift */,
+				B922A9522370E44F00B72117 /* ViewController.swift */,
+				B922A97A2370F99A00B72117 /* ReviewViewController.swift */,
+				B922A9442370DF9D00B72117 /* Assets.xcassets */,
+				B922A9492370DF9D00B72117 /* LaunchScreen.storyboard */,
+				B922A94C2370DF9D00B72117 /* Info.plist */,
+				B922A9462370DF9D00B72117 /* Preview Content */,
+			);
+			path = "Barstool Code Challenge";
+			sourceTree = "<group>";
+		};
+		B922A9462370DF9D00B72117 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B922A9472370DF9D00B72117 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B922A9542370E61600B72117 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B922A95A2370E70300B72117 /* AddSubsviews.swift */,
+				B922A95B2370E70300B72117 /* Fonts+Extentions.swift */,
+				B922A95C2370E70300B72117 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B922A9552370E62E00B72117 /* Custom Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B922A9632370E73B00B72117 /* AppearanceManager.swift */,
+				B922A9642370E73B00B72117 /* ImageCache.swift */,
+				B922A9622370E73B00B72117 /* NetworkManager.swift */,
+				B922A9602370E73B00B72117 /* UIElementsManager.swift */,
+				B922A9612370E73B00B72117 /* UIElementsSizes.swift */,
+			);
+			path = "Custom Managers";
+			sourceTree = "<group>";
+		};
+		B922A9562370E63A00B72117 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B922A96A2370E75E00B72117 /* Base.swift */,
+				B922A9762370EBD000B72117 /* Thumbnail.swift */,
+				B922A9782370EBF800B72117 /* Author.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B922A9572370E64600B72117 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B922A9722370E77200B72117 /* ReviewViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		B922A9582370E65800B72117 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B922A9592370E67F00B72117 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B922A9742370E78B00B72117 /* ReviewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B922A93A2370DF9C00B72117 /* Barstool Code Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B922A94F2370DF9D00B72117 /* Build configuration list for PBXNativeTarget "Barstool Code Challenge" */;
+			buildPhases = (
+				61A1A018DD10CF78CEFB0952 /* [CP] Check Pods Manifest.lock */,
+				B922A9372370DF9C00B72117 /* Sources */,
+				B922A9382370DF9C00B72117 /* Frameworks */,
+				B922A9392370DF9C00B72117 /* Resources */,
+				7E16B68CF8C67502C1C9AB0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barstool Code Challenge";
+			productName = "Barstool Code Challenge";
+			productReference = B922A93B2370DF9C00B72117 /* Barstool Code Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B922A9332370DF9C00B72117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Fusion Corp Design";
+				TargetAttributes = {
+					B922A93A2370DF9C00B72117 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = B922A9362370DF9C00B72117 /* Build configuration list for PBXProject "Barstool Code Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B922A9322370DF9C00B72117;
+			productRefGroup = B922A93C2370DF9C00B72117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B922A93A2370DF9C00B72117 /* Barstool Code Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B922A9392370DF9C00B72117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922A94B2370DF9D00B72117 /* LaunchScreen.storyboard in Resources */,
+				B922A9482370DF9D00B72117 /* Preview Assets.xcassets in Resources */,
+				B922A9452370DF9D00B72117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61A1A018DD10CF78CEFB0952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barstool Code Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E16B68CF8C67502C1C9AB0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barstool Code Challenge/Pods-Barstool Code Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B922A9372370DF9C00B72117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922A9792370EBF800B72117 /* Author.swift in Sources */,
+				B922A9652370E73B00B72117 /* UIElementsManager.swift in Sources */,
+				B922A93F2370DF9C00B72117 /* AppDelegate.swift in Sources */,
+				B922A9672370E73B00B72117 /* NetworkManager.swift in Sources */,
+				B922A95F2370E70300B72117 /* String+Extension.swift in Sources */,
+				B922A9732370E77200B72117 /* ReviewViewModel.swift in Sources */,
+				B922A9412370DF9C00B72117 /* SceneDelegate.swift in Sources */,
+				B922A96E2370E75E00B72117 /* Base.swift in Sources */,
+				B922A97B2370F99A00B72117 /* ReviewViewController.swift in Sources */,
+				B922A9662370E73B00B72117 /* UIElementsSizes.swift in Sources */,
+				B922A9692370E73B00B72117 /* ImageCache.swift in Sources */,
+				B922A9532370E44F00B72117 /* ViewController.swift in Sources */,
+				B922A9752370E78B00B72117 /* ReviewCell.swift in Sources */,
+				B922A95E2370E70300B72117 /* Fonts+Extentions.swift in Sources */,
+				B922A9682370E73B00B72117 /* AppearanceManager.swift in Sources */,
+				B922A95D2370E70300B72117 /* AddSubsviews.swift in Sources */,
+				B922A9772370EBD000B72117 /* Thumbnail.swift in Sources */,
+				B922A9432370DF9C00B72117 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B922A9492370DF9D00B72117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B922A94A2370DF9D00B72117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B922A94D2370DF9D00B72117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B922A94E2370DF9D00B72117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B922A9502370DF9D00B72117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1560A7320C9555E5CB1165 /* Pods-Barstool Code Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Barstool Code Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = K3LN6LR5X2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Barstool Code Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fusioncorpdesign.Barstool-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B922A9512370DF9D00B72117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63EA1397FA7675013136182 /* Pods-Barstool Code Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Barstool Code Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = K3LN6LR5X2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Barstool Code Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fusioncorpdesign.Barstool-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B922A9362370DF9C00B72117 /* Build configuration list for PBXProject "Barstool Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B922A94D2370DF9D00B72117 /* Debug */,
+				B922A94E2370DF9D00B72117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B922A94F2370DF9D00B72117 /* Build configuration list for PBXNativeTarget "Barstool Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B922A9502370DF9D00B72117 /* Debug */,
+				B922A9512370DF9D00B72117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B922A9332370DF9C00B72117 /* Project object */;
+}
